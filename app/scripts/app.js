@@ -7,6 +7,8 @@ angular.module('travel-app', [
 
 ])
 
+//TODO(app): add angular.js, ui-bootstrap, ui-router, angular-animate, angular-material, angular-google-maps, angular-chart
+
     .config(function($stateProvider, $urlRouteProvider){
         $urlRouteProvider.otherwise('/home');
 
