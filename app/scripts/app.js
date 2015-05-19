@@ -5,10 +5,10 @@ angular.module('travel-app', [
     'uiGmapgoogle-maps',
     'ui.bootstrap'
 
-]).
+])
 
-    config(function($stateProvider, $urlRouteProvider){
-       $urlRouteProvider.otherwise('/home');
+    .config(function($stateProvider, $urlRouteProvider){
+        $urlRouteProvider.otherwise('/home');
 
         $stateProvider.
             state('/home',{
